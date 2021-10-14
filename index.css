@@ -1,0 +1,91 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    height: 100%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 1%;
+}
+
+.cardGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.name {
+    font-style: italic;
+    text-align: center;
+}
+
+.price {
+    line-height: 1.5;
+}
+
+.navBar {
+    background: rgb(130,185,235);
+    background: linear-gradient(90deg, rgba(130,185,235,1) 0%, rgba(112,114,219,0.9836309523809523) 14%, rgba(72,188,212,1) 100%);
+}
+
+.loginbtn {
+    background-color: white;
+}
+
+.homeBody {
+    background: rgb(130,185,235);
+    background: linear-gradient(90deg, rgba(130,185,235,1) 0%, rgba(112,114,219,0.9836309523809523) 14%, rgba(72,188,212,1) 100%);
+}
+
+.homeContent {
+    color: white;
+    width: 25%;
+    font-size: large;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.welcome {
+    color: white;
+}
+
+img {
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    width: 40%;
+    height: 45%;
+    object-fit: contain;
+}
+
+.price, .rating, .yardage {
+    text-align: center;
+    padding: 0.2em;
+}
+
+.ballGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.cr {
+    padding-top: .8em;
+    padding-bottom: .5em;
+}
